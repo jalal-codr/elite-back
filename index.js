@@ -13,7 +13,7 @@ app.use(cors({
 }))
 
 try{
-    mongoose.connect('mongodb+srv://panda:panda@cluster0.zjjtilw.mongodb.net/?retryWrites=true&w=majority')
+    mongoose.connect("mongodb+srv://panda:panda@cluster0.zjjtilw.mongodb.net/?retryWrites=true&w=majority")
     .then(console.log("DB conected"))
 }
 catch(err){
